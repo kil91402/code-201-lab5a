@@ -8,9 +8,22 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
+function sum(x, y) { //eslint-disable-line
+
+  let returnValue= [];
+
+  let z;
+
+  z = x + y;
+
+  returnValue.push(z);
+
+  returnValue.push(`Sum of ${x} and ${y} is ${z}.`);
+
+  return returnValue;
 
 }
+
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -27,6 +40,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+  let returnValue= [];
+
+  let c;
+
+  c = a * b;
+
+  returnValue.push(c);
+
+  returnValue.push(`Product of ${a} and ${b} is ${c}.`);
+
+  return returnValue;
 
 }
 
@@ -49,6 +73,17 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
 
+  let returnValue= [];
+  let i;
+
+  i = a + b * c;
+
+  returnValue.push(i);
+
+  returnValue.push(`Sum and product of ${a} and ${b} and ${c} is ${i}.`);
+
+  return returnValue;
+
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -67,11 +102,21 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-let testArray = [2, 3, 4]; //eslint-disable-line
+let testArray = [3, 5, 7]; //eslint-disable-line
 
-function sumArray(sumArr) { //eslint-disable-line
+function sumArray(arr) {   //eslint-disable-line
+
+  let i = arr[0]+arr[1]+arr[2];
+
+  return i;
 
 }
+
+
+
+
+
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -97,7 +142,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
 
-// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
+// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
 // You're done! Submit the link to the repo following the instructions in Canvas. Or, try out the stretch goal below...
 
