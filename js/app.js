@@ -113,6 +113,7 @@ function sumArray(arr) {   //eslint-disable-line
 
 }
 
+
 // Here is the test for sumArray(); uncomment it to run it
 
 // testSumArray(testArray);
@@ -131,7 +132,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
-let testMultiply = [7, 8, 9]; //eslint-disable-line
+let testmultiplyArray = [7, 8, 9]; //eslint-disable-line
 
 function multiplyArray(multArr) { //eslint-disable-line
 
